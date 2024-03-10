@@ -95,7 +95,70 @@ button:hover{
     background: #514988;
     color: rgba(243, 198, 31, 1);
 }
+@media only screen and (max-width: 600px){
+    header{
+        width: 100%;
+        width: 700px;
+    }
 
+    section{
+        display: grid;
+        grid-auto-flow: column;
+    }
+    #menor2{
+        font-size: 15px;
+    
+    }
+    #text{
+       width: 300px;
+    }
+    #text p{
+        font-size: 20px;
+    }
+    #text h1{
+        font-size: 20px;
+        
+    }
+    
+    #div-video video{
+       margin-left: 20px;
+        height: 400px;
+        width: 340px       
+       
+       
+    }
+    #div-video h1{
+        font-size: 27px;
+    }
+    #color{
+        font-size: 14px;
+        line-height: 50px;
+    }
+    .rodape{
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+        
+    }
+    #color2{
+        font-size: 12px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .ingresso img{
+        width: 110px;
+        margin-top: 15px;
+    
+    }
+    button{
+        font-size: 10px;
+        width: 120px;
+        height: 60px;
+        
+        
+    }
+    
+}
 .img:hover{
     cursor: pointer;
     transform: translateY(-7px);
