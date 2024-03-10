@@ -45,8 +45,8 @@ section{
 }
 #div-video{
     text-align: center;
-   height: 600px;
-
+    height: 600px;
+     width: 100%;
 }
 #div-video h1{
     color: #514988;
